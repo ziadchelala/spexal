@@ -102,7 +102,15 @@ a,
     -ms-background-size: cover;
     min-height: 400px;
 }
-
+.banner_thank_you{
+    background: url(../images/111.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 300px;
+}
 .w3_agile_logo {
     float: left;
 }
@@ -582,6 +590,24 @@ ul.insi li {
 .insights-bottom img {
     border-radius: 5px;
     box-shadow: 0px 0px 10px #888888;
+}
+.thank-you {
+    padding: 20px 0;
+}
+
+.thank-you p {
+    font-size: 30px;
+    color: #777;
+    line-height: 26px;
+    margin: 10px 0 20px;
+}
+
+.thank-you img {
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 .wthree-left_info {
     padding: 5em 5em;

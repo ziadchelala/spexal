@@ -3600,6 +3600,9 @@ h2.typoh2 {
         font-size: 36px;
         margin-bottom: 30px;
     }
+    .w3agile_tab_right.w3agile_tab_right1 img {
+        width: 50%;
+    }
 }
 
 @media (max-width: 600px){
@@ -3719,6 +3722,7 @@ h2.typoh2 {
     .nav-tabs > li > a {
         margin-right: 0px;
     }
+
 }
 
 @media (max-width: 414px){

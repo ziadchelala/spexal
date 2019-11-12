@@ -3684,6 +3684,9 @@ h2.typoh2 {
         font-size: 1em;
         letter-spacing: 2px;
     }
+    .w3_agile_logo img{
+      width: 50%;
+    }
 
     .w3_agileits_social_media {
         margin: 0.5em 0 0;

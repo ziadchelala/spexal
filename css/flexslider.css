@@ -114,8 +114,17 @@ html[xmlns] .slides {display: block;}
 	.flex-direction-nav a {
 		top: 75%;
 	}
+	section.slider {
+		padding-top: 10%;
+		padding-bottom: 20%;
+	}
 }
 @media screen and (max-width:991px) {
+
+	section.slider {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
 	.flex-direction-nav .flex-next {
 		right: 0%;
 	}
@@ -123,14 +132,28 @@ html[xmlns] .slides {display: block;}
 		right: 9%;
 	}
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 680px){
+	section.slider {
+		padding-top: 20%;
+		padding-bottom: 20%;
+	}
+	.flex-direction-nav a {
+		top: 71%;
+	}
+}
+@media screen and (max-width: 530px){
+	section.slider {
+		padding-top: 40%;
+		padding-bottom: 30%;
+	}
 	.flex-direction-nav a {
 		top: 71%;
 	}
 }
 @media screen and (max-width: 480px) {
 	section.slider {
-		padding-top: 0%;
+		padding-top: 50%;
+		padding-bottom: 40%;
 	}
 	.flexslider {
 		padding:0;
@@ -160,9 +183,7 @@ html[xmlns] .slides {display: block;}
 }
 }
 @media screen and (max-width: 320px) {
-	section.slider {
-		padding-top: 0%;
-	}
+
 	.flex-direction-nav a {
 		top: 60%;
 	}

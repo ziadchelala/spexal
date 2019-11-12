@@ -58,7 +58,10 @@ a,
 
 /* -- banner -- */
 .banner,
-.banner1 {
+.banner1,
+.banner_job,
+.banner_job_single,
+.banner_thank_you {
     padding: 2em 0 0;
 }
 

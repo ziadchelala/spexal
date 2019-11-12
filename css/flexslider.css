@@ -152,7 +152,7 @@ html[xmlns] .slides {display: block;}
 }
 @media screen and (max-width: 384px) {
 	section.slider {
-		padding-top: 80%;
+		padding-top: 50%;
 		padding-bottom: 40%;
 	}
 .flex-direction-nav .flex-prev {

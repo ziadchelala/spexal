@@ -1617,24 +1617,6 @@ pre code {
     width: 1570px;
   }
 }
-@media (min-width: 1700px) {
-  .container {
-    width: 1670px;
-  }
-}
-@media (min-width: 1800px) {
-  .container {
-    width: 1770px;
-  }
-}@media (min-width: 1900px) {
-  .container {
-    width: 1870px;
-  }
-}@media (min-width: 2000px) {
-  .container {
-    width: 1970px;
-  }
-}
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;

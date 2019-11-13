@@ -293,10 +293,18 @@ button.close {
     outline: none;
 }
 
-.modal-dialog {
-    width: 845px;
+@media (min-width: 991px){
+  .modal-dialog {
+      width: 845px;
+  }
 }
 
+@media (max-width: 990px){
+  .modal-dialog {
+      width: auto;
+      margin: 40px;
+  }
+}
 .w3_modal_body_left {
     padding-left: 0;
     padding-top:3em;

@@ -11,6 +11,19 @@ body {
     background: #ffffff;
     margin: 0;
 }
+/* video and text over video */
+.video_container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered_over_video {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+/* -------------------------- */
 
 p,
 ul li,
@@ -94,6 +107,16 @@ a,
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 600px;
+}
+
+.banner_simul {
+    background: url(../images/simulation_background.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 500px;
 }
 
 .banner_job_single {
@@ -544,7 +567,6 @@ a.menu__link {
 /* -- //become -- */
 /* -- insights -- */
 .insights-wthree-left {
-    background: url(../images/logos.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -627,14 +649,15 @@ ul.insi li {
 
 .wthree-left_info h5 {
     font-size: 35px;
-    color: #ee7325;
+    color: #fff;
     letter-spacing: 2px;
 }
 
 .wthree-left_info p {
     font-size: 15px;
-    color: #ee7325;
+    color: #fff;
     margin: 20px 0;
+    margin-right: 0;
     line-height: 26px;
 }
 
@@ -1113,6 +1136,15 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter {
     font-weight: 400;
     color: #999;
 }
+
+.w3l_caption_simul {
+    font-size: 18px;
+    text-align: center;
+    margin: 1em 0 3em;
+    font-weight: 400;
+    color: #fff;
+}
+
 
 /* -- search bar -- */
 .home-section {
@@ -3042,6 +3074,7 @@ h2.typoh2 {
 .about-poleft img {
     width: 100%;
     height: auto;
+
 }
 
 .about_img h5 {
@@ -3195,7 +3228,28 @@ h2.typoh2 {
     -ms-transition: 0.5s all;
 }
 
+.agile-social ul li a i.fa.fa-researchgate {
+    height: 40px;
+    width: 40px;
+    background: #FFFFFF;
+    line-height: 40px;
+    color: #3b5998;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
 .agile-social ul li a i.fa.fa-facebook:hover {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: #3b5998;
+    color: #FFFFFF;
+}
+
+.agile-social ul li a i.fa.fa-researchgate:hover {
     height: 40px;
     width: 40px;
     line-height: 40px;

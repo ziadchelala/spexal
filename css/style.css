@@ -12,7 +12,19 @@ body {
     margin: 0;
 }
 /* video and text over video */
-.video_container {
+.vert-center-text {
+   position: absolute;
+   top: 40%;
+   left: 0;
+   text-align: center;
+   width: 100%;
+}
+
+.vert-center-container {
+  position:relative;
+}
+
+/* .video_container {
   position: relative;
   text-align: center;
   color: white;
@@ -22,7 +34,7 @@ body {
   top: 35%;
   left: 30%;
   transform: translate(-50%, -50%);
-}
+} */
 /* -------------------------- */
 
 p,

@@ -585,6 +585,8 @@ a.menu__link {
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 412px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .insights h3 {

@@ -22,6 +22,9 @@ body {
 
 .vert-center-container {
   position:relative;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
 }
 
 /* .video_container {
